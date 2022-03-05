@@ -12,12 +12,12 @@ public class Application {
         var b5 = new JButton("CENTER");
 
         var frame = new JFrame();
+        frame.add(b5, BorderLayout.CENTER);
         frame.add(b1, BorderLayout.NORTH);
         frame.add(b2, BorderLayout.SOUTH);
         frame.add(b3, BorderLayout.EAST);
         frame.add(b4, BorderLayout.WEST);
-        frame.add(b5, BorderLayout.CENTER);
-
+        
         frame.setSize(300, 300);
         frame.setVisible(true);
     }

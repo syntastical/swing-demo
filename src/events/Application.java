@@ -38,12 +38,12 @@ public class Application {
 
             @Override
             public void keyPressed(KeyEvent e) {
-                System.out.println(e);
+                System.out.println(e.getKeyChar());
             }
 
             @Override
             public void keyReleased(KeyEvent e) {
-                System.out.println(e);
+                System.out.println(e.getKeyChar());
             }
         });
 
